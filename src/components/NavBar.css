@@ -1,0 +1,21 @@
+/* src/components/NavBar.css */
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links a {
+  color: #bebebe;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}

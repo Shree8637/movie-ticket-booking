@@ -1,0 +1,35 @@
+/* Movies.css */
+
+.movies {
+    background-color: #91aec4; /* Light gray background */
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .movie-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-item h2 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+
+  
+  

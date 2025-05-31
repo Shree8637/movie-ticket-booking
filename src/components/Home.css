@@ -1,0 +1,85 @@
+/* Home.css */
+
+.home {
+  background-color: #91aec4; /* Sage green background */
+  color: #194569; /* Text color */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #194569; /* Text color */
+}
+
+.home nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #bebebe; /* Text color */
+  font-weight: bold;
+}
+
+.home .auth-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home .auth-buttons button {
+  background-color: #194569; /* Dark blue background for buttons */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 3px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.home .auth-buttons button:hover {
+  background-color: #163a5a; /* Darker blue on hover */
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000000; /* Text color */
+}
+
+.movies-list,
+.upcoming-movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  background-color: #ffffff; /* White background for each item */
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+.movie-item h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #194569; /* Text color */
+}
+
+.movie-item p {
+  padding: 0 10px 10px;
+  color: #194569; /* Text color */
+}

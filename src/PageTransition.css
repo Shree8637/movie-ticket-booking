@@ -1,0 +1,56 @@
+/* Fade enter and exit animations */
+.fade-enter {
+  opacity: 10;
+  transform: scale(0.9);
+  z-index: 1;
+}
+
+.fade-enter-active {
+  opacity: 10;
+  transform: scale(1);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+/* Hover effect */
+.hoverable {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hoverable::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hoverable:hover::after {
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.hoverable:hover {
+  transform: scale(1.05);
+  transition: transform 300ms ease-in-out;
+}

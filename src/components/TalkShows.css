@@ -1,0 +1,63 @@
+.talkshows-container {
+  background-color: #91aec4;
+  color: #000000;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.talkshows-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.talkshow-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.talkshow-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.talkshow-item h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.talkshow-item p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.talkshow-item a {
+  color: #194569;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.talkshow-item a:hover {
+  text-decoration: underline;
+}

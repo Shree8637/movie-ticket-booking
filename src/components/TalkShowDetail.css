@@ -1,0 +1,36 @@
+/* TalkShowDetail.css */
+
+.talkshow-detail {
+    background-color: #ffffff;
+    color: #194569;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .talkshow-detail-poster {
+    width: 300px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-confirmation {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
